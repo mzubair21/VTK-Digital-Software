@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Website Thumnail Seo Search-->
+
+    <!-- Primary Meta Tags -->
+    <title>VTK</title>
+    <meta name="title" content="VTK" />
+    <meta name="description" content="VTK - is a digital service platform" />
+  </head>
+  <body>
+    <header class="bg-black border-b border-b-gray-500">
+      <div
+        class="flex flex-row justify-between lg:justify-around w-full h-16 text-white"
+      >
+        <div
+          class="w-4/6 sm:w-3/6 md:w-2/6 lg:w-1/6 gap-2 md:px-2 flex justify-center items-center"
+        >
+          <div class="flex items-center lg:hidden">
+            <button id="hamburger-button" class="text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-9 w-12"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <img
+            src="../assets/headerLogo.png"
+            alt="logo"
+            class="object-contain w-8/12 md:w-9/12 lg:w-11/12"
+          />
+        </div>
+
+        <!-- Conatct Information -->
+
+        <div
+          class="hidden sm:flex md:flex lg:flex gap-3 w-5/6 sm:w-5/6 md:w-3/6 lg:w-3/6 md:justify-center lg:justify-centertext-sm lg:text-lg"
+        >
+          <div class="flex gap-1 justify-center items-center">
+            <img src="../assets/mail.png" alt="email" class="object-contain" />
+            <p class="">assign@factsnotfiction.com</p>
+          </div>
+
+          <div class="flex gap-1 justify-center items-center">
+            <img src="../assets/call.png" alt="call" />
+            <p class=""> 800-576-6116</p>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+
+        <div
+          id="nav-menu"
+          class="nav-menu hidden fixed top-0 left-0 w-full h-60 bg-black bg-opacity-80 flex justify-center items-center z-50 lg:hidden transition-opacity duration-500 ease-in-out"
+        >
+          <nav class="text-white text-xl">
+            <ul>
+              <li>
+                <a href="./contactus.html" class="block py-2 px-4 text-center"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="./services.html" class="block py-2 px-4 text-center"
+                  >Services</a
+                >
+              </li>
+              <li><a href="./aboutus.html" class="block py-2 px-4 text-center">About</a></li>
+              <li>
+                <button
+                  id="close-menu-button"
+                  class="text-white text-center flex justify-center items-center w-full"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <nav
+          class="hidden md:hidden text-white lg:flex lg:justify-center lg:items-center lg:gap-4 lg:text-lg"
+          id="navLinksConatiner"
+        >
+          <li class="list-none"><a href="./contactus.html">Contact Us</a></li>
+          <li class="list-none"><a href="./services.html">Services</a></li>
+          <li class="list-none"><a href="./aboutus.html">About</a></li>
+        </nav>
+      </div>
+    </header>
+    <main class="font-poppins text-white bg-black">
+      <!-- Section 1 -->
+      <section class="w-full text-white h-full bg-black" id="left">
+
+        <div class="w-full md:flex md:flex-col lg:flex lg:flex-row gap-2 h-full p-7 ">
+          <div class="w-full  md:w-full lg:w-1/3 flex flex-col h-full gap-4  p-3">
+            <a href="../index.html"><img src="../assets/back-arrow.png" alt="back" /></a>
+            <h1 class="text-3xl font-semibold">What we do</h1>
+            <p>
+              We specialise in crafting cutting-edge software solutions tailored
+              to your unique needs.
+            </p>
+          </div>
+
+
+          <!-- Services Offered -->
+
+          <div
+            class="w-full md:w-full  lg:w-2/3 h-fit bg-black p-3 flex flex-col md:flex md:flex-col lg:flex lg:flex-row lg:flex-wrap gap-3 md:gap-3 lg:gap-3 justify-center"
+          >
+            <div class="w-full  md:w-full  lg:w-5/12 bg-gray-400 h-72 md:h-64 lg:h-64">
+              <div
+                class="w-full h-full"
+                style="
+                  background: url('./assets/client-review.png'),
+                    linear-gradient(
+                      110deg,
+                      rgb(46, 44, 44) 55%,
+                      rgb(62, 112, 129) 70%
+                    );
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                "
+              >
+                <div class="flex flex-col gap-3 p-2 h-full justify-evenly">
+                  <div class="w-full flex justify-between p-5 items-center">
+                    <div class="flex flex-col p-2">
+                      <h1 class="text-2xl font-semibold">UI/UX</h1>
+                      <h1 class="text-2xl font-semibold">DESIGNING</h1>
+                    </div>
+
+                    <div
+                      class="w-16 h-10 rounded-md bg-gray-secondary bg-opacity-50 p-2 text-white text-center font-semibold"
+                    >
+                      <button class="h-full w-full">HIRE</button>
+                    </div>
+                  </div>
+
+                  <div class="w-full px-5">
+                    We specialise in crafting intuitive user experiences that
+                    captivate and engage audiences.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full  md:w-full  lg:w-5/12  h-72 md:h-64 lg:h-64">
+              <div
+                class="w-full h-full"
+                style="
+                  background: url('./assets/client-review.png'),
+                    linear-gradient(
+                      110deg,
+                      rgb(46, 44, 44) 55%,
+                      rgb(49, 131, 69) 70%
+                    );
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                "
+              >
+                <div class="flex flex-col gap-3 p-2 h-full justify-evenly">
+                  <div class="w-full flex justify-between p-5 items-center">
+                    <div class="flex flex-col p-2">
+                      <h1 class="text-2xl font-semibold">BACK-END</h1>
+                      <h1 class="text-2xl font-semibold">DEVELOPMENT</h1>
+                    </div>
+
+                    <div
+                      class="w-16 h-10 rounded-md bg-gray-secondary bg-opacity-50 p-2 text-white text-center font-semibold"
+                    >
+                      <button class="h-full w-full">HIRE</button>
+                    </div>
+                  </div>
+
+                  <div class="w-full px-5">
+                    We excel in backend development, architecting robust and
+                    scalable systems that power your applications with
+                    efficiency and reliability.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full  md:w-full  lg:w-5/12 bg-gray-400 h-72 md:h-64 lg:h-64">
+              <div
+                class="w-full h-full"
+                style="
+                  background: url('./assets/client-review.png'),
+                    linear-gradient(
+                      110deg,
+                      rgb(46, 44, 44) 55%,
+                      rgb(124, 60, 107) 70%
+                    );
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                "
+              >
+                <div class="flex flex-col gap-3 p-2 h-full justify-evenly">
+                  <div class="w-full flex justify-between p-5 items-center">
+                    <div class="flex flex-col p-2">
+                      <h1 class="text-2xl font-semibold">SOFTWARE</h1>
+                      <h1 class="text-2xl font-semibold">DEVELOPMENT</h1>
+                    </div>
+
+                    <div
+                      class="w-16 h-10 rounded-md bg-gray-secondary bg-opacity-50 p-2 text-white text-center font-semibold"
+                    >
+                      <button class="h-full w-full">HIRE</button>
+                    </div>
+                  </div>
+
+                  <div class="w-full px-5">
+                    We specialize in software development, transforming ideas
+                    into powerful, user-friendly applications that drive
+                    business success.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full  md:w-full  lg:w-5/12 bg-gray-400 h-72 md:h-64 lg:h-64">
+              <div
+                class="w-full h-full"
+                style="
+                  background: url('./assets/client-review.png'),
+                    linear-gradient(
+                      110deg,
+                      rgb(46, 44, 44) 55%,
+                      rgb(125, 63, 12) 70%
+                    );
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                "
+              >
+                <div class="flex flex-col gap-3 p-2 h-full justify-evenly">
+                  <div class="w-full flex justify-between p-5 items-center">
+                    <div class="flex flex-col p-2">
+                      <h1 class="text-2xl font-semibold">(AI)ARTIFICIAL</h1>
+                      <h1 class="text-2xl font-semibold">INTELLIGENCE</h1>
+                    </div>
+
+                    <div
+                      class="w-16 h-10 rounded-md bg-gray-secondary bg-opacity-50 p-2 text-white text-center font-semibold"
+                    >
+                      <button class="h-full w-full">HIRE</button>
+                    </div>
+                  </div>
+
+                  <div class="w-full px-5">
+                    We pioneer Artificial Intelligence solutions, harnessing the
+                    latest advancements to empower businesses with smart,
+                    data-driven insights
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full  md:w-full  lg:w-5/12 bg-gray-400 h-72 md:h-64 lg:h-64">
+              <div
+                class="w-full h-full"
+                style="
+                  background: url('./assets/client-review.png'),
+                    linear-gradient(
+                      110deg,
+                      rgb(46, 44, 44) 55%,
+                      rgb(54, 122, 104) 70%
+                    );
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                "
+              >
+                <div class="flex flex-col gap-3 p-2 h-full justify-evenly">
+                  <div class="w-full flex justify-between p-5 items-center">
+                    <div class="flex flex-col p-2">
+                      <h1 class="text-2xl font-semibold">WEBSITE</h1>
+                      <h1 class="text-2xl font-semibold">DEVELOPMENT</h1>
+                    </div>
+
+                    <div
+                      class="w-16 h-10 rounded-md bg-gray-secondary bg-opacity-50 p-2 text-white text-center font-semibold"
+                    >
+                      <button class="h-full w-full">HIRE</button>
+                    </div>
+                  </div>
+
+                  <div class="w-full px-5">
+                    We specialise in website development, crafting visually
+                    stunning and highly functional digital experiences tailored
+                    to your brand identity.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full  md:w-full  lg:w-5/12 bg-gray-400 h-72 md:h-64 lg:h-64">
+              <div
+                class="w-full h-full"
+                style="
+                  background: url('./assets/client-review.png'),
+                    linear-gradient(
+                      110deg,
+                      rgb(46, 44, 44) 55%,
+                      rgb(118, 62, 120) 70%
+                    );
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                "
+              >
+                <div class="flex flex-col gap-3 p-2 h-full justify-evenly">
+                  <div class="w-full flex justify-between p-5 items-center">
+                    <div class="flex flex-col p-2">
+                      <h1 class="text-2xl font-semibold">ANALYSIS AND</h1>
+                      <h1 class="text-2xl font-semibold">MARKETING</h1>
+                    </div>
+
+                    <div
+                      class="w-16 h-10 rounded-md bg-gray-secondary bg-opacity-50 p-2 text-white text-center font-semibold"
+                    >
+                      <button class="h-full w-full">HIRE</button>
+                    </div>
+                  </div>
+
+                  <div class="w-full px-5">
+                    We specialize in mobile app development, creating innovative
+                    and user-centric solutions for iOS and Android platforms.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full  md:w-full  lg:w-5/12 bg-gray-400 h-72 md:h-64 lg:h-64">
+              <div
+                class="w-full h-full"
+                style="
+                  background: url('./assets/client-review.png'),
+                    linear-gradient(
+                      110deg,
+                      rgb(46, 44, 44) 55%,
+                      rgb(55, 62, 114) 70%
+                    );
+                  background-position: bottom;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                "
+              >
+                <div class="flex flex-col gap-3 p-2 h-full justify-evenly">
+                  <div class="w-full flex justify-between p-5 items-center">
+                    <div class="flex flex-col p-2">
+                      <h1 class="text-2xl font-semibold">MOBILE APP</h1>
+                      <h1 class="text-2xl font-semibold">DEVELOPMENT</h1>
+                    </div>
+
+                    <div
+                      class="w-16 h-10 rounded-md bg-gray-secondary bg-opacity-50 p-2 text-white text-center font-semibold"
+                    >
+                      <button class="h-full w-full">HIRE</button>
+                    </div>
+                  </div>
+
+                  <div class="w-full px-5">
+                    We specialise in mobile app development, creating innovative
+                    and user-centric solutions for iOS and Android platforms.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-black text-white">
+      <div
+        class="p-5 w-full px-8 flex flex-col gap-1 border-t border-t-gray-400 bg-black"
+      >
+        <div>
+          <img src="../assets/footer_logo.png" alt="logo" />
+        </div>
+
+        <div class="p-3 md:flex md:flex-col lg:flex lg:flex-row gap-4">
+          <div
+            class="w-full md:w-full lg:w-8/12 md:flex md:flex-col gap-4 md:gap-4 lg:gap-4 lg:flex lg:flex-row lg:justify-between lg:items-center"
+          >
+            <div class="flex gap-6">
+              <div class="flex flex-col">
+                <p class="text-xs text-gray-300">CONTACT</p>
+                <p>+1 891 898-11-91</p>
+              </div>
+
+              <div class="flex flex-col">
+                <p class="text-xs text-gray-300">EMAIL</p>
+                <p>info@logoipsum.com</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <p class="text-xs text-gray-300">ADDRESS</p>
+              <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+            </div>
+          </div>
+
+          <div class="w-full lg:w-4/12 flex flex-col gap-2 items-end">
+            <img src="../assets/privacy_button.png" alt="" />
+
+            <p class="text-sm text-gray-300">privacy</p>
+          </div>
+        </div>
+
+        <p class="text-sm text-gray-300">&copy; 2023 - Copyright</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
